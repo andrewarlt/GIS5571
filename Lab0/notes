@@ -1,0 +1,10 @@
+git clone https://
+cd folder name
+mkdir data
+ls
+touch .gitignore (hiden file) --> data/*
+!data.gitkeep
+git add .
+git commit -m "Initial commit"
+git push
+touch data/.gitkeep
